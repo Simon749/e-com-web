@@ -1,0 +1,28 @@
+{
+  "name": "luvarte",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simon749/luvert-e-com-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simon749/luvert-e-com-web/issues"
+  },
+  "homepage": "https://github.com/Simon749/luvert-e-com-web#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "stripe": "^18.5.0"
+  }
+}

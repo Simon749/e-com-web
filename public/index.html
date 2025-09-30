@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce||store</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+
+        <div class="nav container">
+             <i class="ri-menu-line" id="menu-icon"></i>
+
+             <a href="#" class="logo">Luvarte</a>
+
+             <div class="navbar">
+                <a href="#products" class="navlink">Shirts & Tops</a>
+                <a href="#products" class="navlink">Outwear</a>
+                <a href="#products" class="navlink">Bottom</a>
+                <a href="#products" class="navlink">Caps</a>
+             </div>
+
+             <a href="cart.html">
+                <i class="ri-shopping-bag-line" id="cart-icon"><span id="cart-count">0</span></i>
+             </a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img container">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <section class="products container" id="products">
+
+        <h2 class="heading">Related Products</h2>
+        <div class="product-container" id="productList">
+            <div class="product">
+                <img src="images/product-1.png" class="product-img" alt="product" />
+                <div class="product-info">
+                    <h2 class="product-title">Hoodie Sweatshirts</h2>
+                    <p class="product-price">$607</p>
+                    <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/product-2.png" class="product-img" alt="product" />
+                <div class="product-info">
+                    <h2 class="product-title">Cotton Hoodie</h2>
+                    <p class="product-price">$670</p>
+                    <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/product-3.png" class="product-img" alt="product" />
+                <div class="product-info">
+                    <h2 class="product-title">Black T-shirt</h2>
+                    <p class="product-price">$60</p>
+                    <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/product-4.png" class="product-img" alt="product" />
+                <div class="product-info">
+                    <h2 class="product-title">Phone Case</h2>
+                    <p class="product-price">$60</p>
+                    <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/product-5.png" class="product-img" alt="product" />
+                <div class="product-info">
+                    <h2 class="product-title">Black Jacket</h2>
+                    <p class="product-price">$740</p>
+                    <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/product-6.png" class="product-img" alt="product" />
+                <div class="product-info">
+                    <h2 class="product-title">Baseball Cap</h2>
+                    <p class="product-price">$120</p>
+                    <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/product-7.png" class="product-img" alt="product" />
+                <div class="product-info">
+                    <h2 class="product-title">Beige Hoodie</h2>
+                    <p class="product-price">$80</p>
+                    <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/product-8.png" class="product-img" alt="product" />
+                <div class="product-info">
+                    <h2 class="product-title">White Hoodie</h2>
+                    <p class="product-price">$280</p>
+                    <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to cart</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="footer" id="footer">
+        <div class="footer-c container">
+            <div class="footer-box">
+                <h2>Luvarte</h2>
+                <div class="social">
+                    <a href="#"><i class="ri-facebook-line"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-twitter-line"></i></a>
+                    <a href="#"><i class="ri-whatsapp-line"></i></a>
+                    <a href="#"><i class="ri-pinterest-line"></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Help</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">Faq</a>
+                <a href="#">Shipment</a>
+                <a href="#">Payment</a>
+                <a href="#">Track Your Order</a>
+                <a href="#">Return Your Order</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal Info</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Return Policy</a>
+                <a href="#">Community</a>
+                <a href="#">Get Card</a>
+            </div>
+        </div>
+        <p class="copyright container">&#169; Luvarte Shop </p>
+    </div>
+
+    
+
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
